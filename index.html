@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex">
 <title>Milano BioEstetica — Centro estetico & Luxury SPA · Milano</title>
 <meta name="description" content="Milano BioEstetica: centro estetico e Luxury SPA a Milano. Il percorso dei sensi — idromassaggio, bagno turco, grotta di sale — più medicina estetica, laser, pressoterapia, viso e corpo. Due sedi: Città Studi e Gioia." />
 <link rel="canonical" href="https://rotenzark.github.io/milano-bioestetica/" />
@@ -24,9 +25,7 @@
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png" />
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Albert+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 
 <link rel="stylesheet" href="css/styles.css?v=1" />
 
@@ -42,15 +41,44 @@
   "priceRange": "€€",
   "image": "https://rotenzark.github.io/milano-bioestetica/img/facade-day.jpg",
   "address": [
-    { "@type": "PostalAddress", "streetAddress": "Via Teodosio 27", "addressLocality": "Milano", "postalCode": "20131", "addressCountry": "IT" },
-    { "@type": "PostalAddress", "streetAddress": "Via Melchiorre Gioia 77 (angolo Via Muzio 1/D)", "addressLocality": "Milano", "postalCode": "20125", "addressCountry": "IT" }
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Teodosio 27",
+      "addressLocality": "Milano",
+      "postalCode": "20131",
+      "addressCountry": "IT"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Melchiorre Gioia 77 (angolo Via Muzio 1/D)",
+      "addressLocality": "Milano",
+      "postalCode": "20125",
+      "addressCountry": "IT"
+    }
   ],
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "10:30", "closes": "19:30" },
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:30", "closes": "19:30" }
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "10:30",
+      "closes": "19:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:30",
+      "closes": "19:30"
+    }
   ],
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.4", "reviewCount": "43" },
-  "sameAs": ["http://www.milanobioestetica.it/"]
+  "sameAs": [
+    "http://www.milanobioestetica.it/"
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -215,7 +243,7 @@
         <p class="sede-note" data-i18n="sede.gioia.note">Il percorso benessere: idromassaggio, bagno turco, doccia emozionale e grotta di sale.</p>
         <p class="sede-line"><b data-i18n="sede.tel">Tel</b> <a href="tel:+390267072348">02 6707 2348</a></p>
         <a class="sede-map" href="https://www.google.com/maps/dir/?api=1&destination=Milano+Bioestetica+Via+Melchiorre+Gioia+77+Milano" target="_blank" rel="noopener" data-i18n="sede.route">Come arrivare →</a>
-        <iframe title="Mappa sede Via Gioia 77" src="https://www.google.com/maps?q=Milano+Bioestetica+Via+Melchiorre+Gioia+77+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe title="Mappa sede Via Gioia 77" src="https://www.google.com/maps?q=Milano+Bioestetica+Via+Melchiorre+Gioia+77+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&destination=Milano+Bioestetica+Via+Melchiorre+Gioia+77+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
     </article>
     <article class="sede reveal">
@@ -227,7 +255,7 @@
         <p class="sede-note" data-i18n="sede.teo.note">I trattamenti estetici e la medicina estetica, a due passi dal Politecnico.</p>
         <p class="sede-line"><b data-i18n="sede.tel">Tel</b> <a href="tel:+39022361574">02 236 1574</a></p>
         <a class="sede-map" href="https://www.google.com/maps/dir/?api=1&destination=Milano+Bio+Estetica+Via+Teodosio+27+Milano" target="_blank" rel="noopener" data-i18n="sede.route">Come arrivare →</a>
-        <iframe title="Mappa sede Via Teodosio 27" src="https://www.google.com/maps?q=Milano+Bio+Estetica+Via+Teodosio+27+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe title="Mappa sede Via Teodosio 27" src="https://www.google.com/maps?q=Milano+Bio+Estetica+Via+Teodosio+27+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&destination=Milano+Bioestetica+Via+Melchiorre+Gioia+77+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
     </article>
   </div>
@@ -258,23 +286,23 @@
   </div>
   <div class="rev-grid">
     <blockquote class="rev reveal">
-      <p>Ho iniziato un ciclo di cinque massaggi, approfittando di una promozione. Devo dire che mi sono fatta un bel regalo. Sono stata accolta con gentilezza, mi sono rilassata molto. Grazie!</p>
+      <p lang="it">Ho iniziato un ciclo di cinque massaggi, approfittando di una promozione. Devo dire che mi sono fatta un bel regalo. Sono stata accolta con gentilezza, mi sono rilassata molto. Grazie!</p>
       <cite>Sabrina Di Giacomo · <span>★★★★★</span></cite>
     </blockquote>
     <blockquote class="rev reveal">
-      <p>Ambiente pulito e personale cordiale e accogliente. Sono rimasta piacevolmente stupita in positivo dai trattamenti presso il centro.</p>
+      <p lang="it">Ambiente pulito e personale cordiale e accogliente. Sono rimasta piacevolmente stupita in positivo dai trattamenti presso il centro.</p>
       <cite>Eleonora Dolci · <span>★★★★★</span></cite>
     </blockquote>
     <blockquote class="rev reveal">
-      <p>Sono bravi, a prezzi onesti. Ho fatto un trucco giorno ed è rimasto impeccabile tutto il tempo. Gentili e disponibili: si sono offerti di aprire prima dell'orario per truccarmi.</p>
+      <p lang="it">Sono bravi, a prezzi onesti. Ho fatto un trucco giorno ed è rimasto impeccabile tutto il tempo. Gentili e disponibili: si sono offerti di aprire prima dell'orario per truccarmi.</p>
       <cite>Marti Ma · <span>★★★★★</span></cite>
     </blockquote>
     <blockquote class="rev reveal">
-      <p>Ottimo servizio e location di alto livello, molto curata. Il personale è serio e scrupoloso, esegue il lavoro in maniera impeccabile.</p>
+      <p lang="it">Ottimo servizio e location di alto livello, molto curata. Il personale è serio e scrupoloso, esegue il lavoro in maniera impeccabile.</p>
       <cite>Roberto · <span>★★★★★</span></cite>
     </blockquote>
     <blockquote class="rev reveal">
-      <p>Mi hanno regalato il tatuaggio all'henné per le sopracciglia prima di un matrimonio. Personale attento e disponibile: risultato naturale e curato.</p>
+      <p lang="it">Mi hanno regalato il tatuaggio all'henné per le sopracciglia prima di un matrimonio. Personale attento e disponibile: risultato naturale e curato.</p>
       <cite>riequilibrio_dolce · <span>★★★★☆</span></cite>
     </blockquote>
   </div>
@@ -338,7 +366,7 @@
   </div>
   <div class="foot-bottom">
     <p data-i18n="foot.disclaimer">Sito dimostrativo. Contenuti e foto raccolti da fonti pubbliche e dal sito ufficiale del cliente; alcune immagini di servizio sono di catalogo e i prezzi sono indicativi, da confermare con il centro.</p>
-    <p class="foot-credit">Design <a href="https://bespokestud.io" target="_blank" rel="noopener">Bespoke Studio</a></p>
+    <p class="foot-credit">Design <a href="https://bespokestud.io" target="_blank" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a></p>
   </div>
 </footer>
 
@@ -352,5 +380,6 @@
 <div id="lightbox" aria-hidden="true"><button id="lb-close" aria-label="Chiudi">✕</button><img id="lb-img" src="" alt="" /></div>
 
 <script src="js/main.js?v=1"></script>
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
